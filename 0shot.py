@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import time
 
-st.set_page_config(page_title="Zero-Shot Classifier", layout="wide", page_icon="🎯")
+st.set_page_config(page_title="Zero-Shot Classifier", layout="wide", page_icon="🎯") 
 
 st.title("🎯 Zero-Shot Text Classification")
 st.write("Classify text with custom labels using Hugging Face NLI models — no training required!")
@@ -279,5 +279,6 @@ with st.expander("ℹ️ About & Tips"):
     ```
     Install: `pip install streamlit transformers torch pandas matplotlib`
     """)
+
 
 st.caption("Built with Streamlit 🎈 | Powered by Hugging Face 🤗")
