@@ -2,7 +2,7 @@ import streamlit as st
 from transformers import pipeline
 import pandas as pd
 import matplotlib.pyplot as plt
-import time
+import time 
 
 st.set_page_config(page_title="Zero-Shot Classifier", layout="wide", page_icon="🎯") 
 
@@ -282,3 +282,4 @@ with st.expander("ℹ️ About & Tips"):
 
 
 st.caption("Built with Streamlit 🎈 | Powered by Hugging Face 🤗")
+
