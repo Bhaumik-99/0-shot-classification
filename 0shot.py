@@ -1,6 +1,6 @@
 import streamlit as st
 from transformers import pipeline
-import pandas as pd
+import pandas as pd 
 import matplotlib.pyplot as plt
 import time 
 
@@ -282,4 +282,5 @@ with st.expander("ℹ️ About & Tips"):
 
 
 st.caption("Built with Streamlit 🎈 | Powered by Hugging Face 🤗")
+
 
